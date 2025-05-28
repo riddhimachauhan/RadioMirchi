@@ -138,8 +138,6 @@ import requests
 from datetime import datetime, timedelta
 import json
 
-REFRESH_TOKEN = "xWfzKOpi3LwWdt8uirHzlJ38t8i6GaGI0GEN6JDKnYVmYiE84h1p3FedCuDmj2Mw"
-
 def refresh_access_token(refresh_token=REFRESH_TOKEN):
     url = "https://api.chartmetric.com/api/token"
     headers = {"Content-Type": "application/json"}
@@ -246,7 +244,6 @@ if __name__ == "__main__":
 # TOP 50 SONGS BY GENRE
 import requests
 
-REFRESH_TOKEN = "xWfzKOpi3LwWdt8uirHzlJ38t8i6GaGI0GEN6JDKnYVmYiE84h1p3FedCuDmj2Mw"
 
 def refresh_access_token(refresh_token=REFRESH_TOKEN):
     url = "https://api.chartmetric.com/api/token"
