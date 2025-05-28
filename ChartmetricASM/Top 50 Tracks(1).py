@@ -7,17 +7,10 @@
 import requests
 from datetime import datetime, timedelta
 import json
-api_key = "xWfzKOpi3LwWdt8uirHzlJ38t8i6GaGI0GEN6JDKnYVmYiE84h1p3FedCuDmj2Mw"
-url = "https://api.chartmetric.com/api/token"
-
-
-
-# In[2]:
-
 
 import requests
 
-REFRESH_TOKEN = "xWfzKOpi3LwWdt8uirHzlJ38t8i6GaGI0GEN6JDKnYVmYiE84h1p3FedCuDmj2Mw"
+REFRESH_TOKEN = "Write_token_here"
 
 def refresh_access_token(refresh_token=REFRESH_TOKEN):
     url = "https://api.chartmetric.com/api/token"
